@@ -1,0 +1,11 @@
+C:\MensajeriaDomicilios\DroneFuture.App\DroneFuture.App.Persistencia\obj\Debug\netstandard2.1\DroneFuture.App.Persistencia.csprojAssemblyReference.cache
+C:\MensajeriaDomicilios\DroneFuture.App\DroneFuture.App.Persistencia\obj\Debug\netstandard2.1\DroneFuture.App.Persistencia.AssemblyInfoInputs.cache
+C:\MensajeriaDomicilios\DroneFuture.App\DroneFuture.App.Persistencia\obj\Debug\netstandard2.1\DroneFuture.App.Persistencia.AssemblyInfo.cs
+C:\MensajeriaDomicilios\DroneFuture.App\DroneFuture.App.Persistencia\bin\Debug\netstandard2.1\DroneFuture.App.Persistencia.deps.json
+C:\MensajeriaDomicilios\DroneFuture.App\DroneFuture.App.Persistencia\bin\Debug\netstandard2.1\DroneFuture.App.Persistencia.dll
+C:\MensajeriaDomicilios\DroneFuture.App\DroneFuture.App.Persistencia\bin\Debug\netstandard2.1\DroneFuture.App.Persistencia.pdb
+C:\MensajeriaDomicilios\DroneFuture.App\DroneFuture.App.Persistencia\bin\Debug\netstandard2.1\DroneFuture.App.Dominio.dll
+C:\MensajeriaDomicilios\DroneFuture.App\DroneFuture.App.Persistencia\bin\Debug\netstandard2.1\DroneFuture.App.Dominio.pdb
+C:\MensajeriaDomicilios\DroneFuture.App\DroneFuture.App.Persistencia\obj\Debug\netstandard2.1\DroneFuture.App.Persistencia.csproj.CopyComplete
+C:\MensajeriaDomicilios\DroneFuture.App\DroneFuture.App.Persistencia\obj\Debug\netstandard2.1\DroneFuture.App.Persistencia.dll
+C:\MensajeriaDomicilios\DroneFuture.App\DroneFuture.App.Persistencia\obj\Debug\netstandard2.1\DroneFuture.App.Persistencia.pdb

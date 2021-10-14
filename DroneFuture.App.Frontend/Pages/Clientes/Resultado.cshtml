@@ -1,0 +1,45 @@
+﻿@page
+@model DroneFuture.App.Frontend.Pages.ResultadoModel
+@{
+}
+
+<!DOCTYPE html>   <!--  -->
+<html lang="es">  <!-- tipo de lenguaje -->
+    
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Shipping Drone</title>
+
+    <link rel="stylesheet" href="~/css/estilos4.css" />
+
+    
+    
+    </head> 
+
+<body>
+
+<h1>Detalle del pedido</h1>
+<p>Id: @Model.Pedido.Id</p>
+<p>Estado: @Model.Pedido.EstadoFinalizacion</p>
+<p>Satisfaccion: @Model.Pedido.Satisfaccion</p>
+<p>Temperatura de la zona: @Model.Estado.TemperaturaZona</p>
+<p>Estado del dron: @Model.Estado.EstadoDron</p>
+<p>Estado del paquete: @Model.Estado.EstadoEmpaque</p>
+<p>Tiempo de llegada: @Model.Estado.TiempoLlegada minutos</p>
+
+<div class="alert alert-primary" role="alert">
+  Registra tu Satisfaccion con el pedido
+</div>
+
+<form method="POST">
+    <input type="hidden" asp-for="Pedido.Id">
+    <div class="form-group">
+        <input asp-for="Pedido.Satisfaccion" class="form-control">
+        <span class="text-danger" asp-validation-for="Pedido.Satisfaccion"></span>
+    </div>
+    <button type = "submit" class="btn btn-primary">Guardar</button>
+</form>
+
+</body>
+</html>

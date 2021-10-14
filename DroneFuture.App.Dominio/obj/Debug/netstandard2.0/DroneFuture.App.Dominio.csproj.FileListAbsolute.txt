@@ -1,0 +1,8 @@
+C:\MensajeriaDomicilios\DroneFuture.App\DroneFuture.App.Dominio\bin\Debug\netstandard2.0\DroneFuture.App.Dominio.deps.json
+C:\MensajeriaDomicilios\DroneFuture.App\DroneFuture.App.Dominio\bin\Debug\netstandard2.0\DroneFuture.App.Dominio.dll
+C:\MensajeriaDomicilios\DroneFuture.App\DroneFuture.App.Dominio\bin\Debug\netstandard2.0\DroneFuture.App.Dominio.pdb
+C:\MensajeriaDomicilios\DroneFuture.App\DroneFuture.App.Dominio\obj\Debug\netstandard2.0\DroneFuture.App.Dominio.csprojAssemblyReference.cache
+C:\MensajeriaDomicilios\DroneFuture.App\DroneFuture.App.Dominio\obj\Debug\netstandard2.0\DroneFuture.App.Dominio.AssemblyInfoInputs.cache
+C:\MensajeriaDomicilios\DroneFuture.App\DroneFuture.App.Dominio\obj\Debug\netstandard2.0\DroneFuture.App.Dominio.AssemblyInfo.cs
+C:\MensajeriaDomicilios\DroneFuture.App\DroneFuture.App.Dominio\obj\Debug\netstandard2.0\DroneFuture.App.Dominio.dll
+C:\MensajeriaDomicilios\DroneFuture.App\DroneFuture.App.Dominio\obj\Debug\netstandard2.0\DroneFuture.App.Dominio.pdb

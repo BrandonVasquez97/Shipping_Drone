@@ -1,0 +1,57 @@
+﻿@page
+@model DroneFuture.App.Frontend.Pages.ListModel
+@{
+}
+
+<!DOCTYPE html>   <!--  -->
+<html lang="es">  <!-- tipo de lenguaje -->
+    
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Shipping Drone</title>
+    <link rel="stylesheet" href="~/css/estilos2.css" />
+    </head> 
+
+<body>
+
+<h1>Lista Pedidos</h1>
+<table class="table">
+    <tr>
+        <td><h5>Id Pedido</h5></td>
+        <td><h5>Estado</h5></td>
+        <td><h5>Satisfaccion</h5></td>
+        <td> </td>
+        <td> </td>
+    </tr>
+    @foreach (var pedido in Model.ListaPedidos)
+    {   
+        <tr>
+            <td>@pedido.Id</td>
+            <td>@pedido.EstadoFinalizacion</td>
+            <td>@pedido.Satisfaccion</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-idPedido="@pedido.Id">
+                <i class="fas fa-info-circle fa-lg"></i>
+                Info
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-idPedido="@pedido.Id">
+                <i class="fas fa-address-book fa-lg" aria-hidden="true"></i>
+                Editar
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-danger table-btn" asp-page="./Delete" asp-route-idPedido="@pedido.Id">
+                <i class="fas fa-user-times fa-lg" aria-hidden="true"></i>
+                Borrar
+                </a>
+            </td>
+        </tr>
+    }
+    
+
+</table>
+</body>
+</html>

@@ -1,0 +1,50 @@
+﻿@page
+@model DroneFuture.App.Frontend.Pages.EditModel
+@{
+}
+
+<h1>Edicion del pedido</h1>
+
+<form method="POST">
+    <input type="hidden" asp-for="Pedido.Id">
+    <div class="form-group">
+        <label asp-for="Pedido.EstadoFinalizacion"></label>
+        <input asp-for="Pedido.EstadoFinalizacion" class="form-control">
+        <span class="text-danger" asp-validation-for="Pedido.EstadoFinalizacion"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Pedido.Satisfaccion"></label>
+        <input asp-for="Pedido.Satisfaccion" class="form-control">
+        <span class="text-danger" asp-validation-for="Pedido.Satisfaccion"></span>
+
+    </div>
+
+    <input type="hidden" asp-for="Estado.Id">
+    <div class="form-group">
+        <label asp-for="Estado.TemperaturaZona"></label>
+        <input asp-for="Estado.TemperaturaZona" class="form-control">
+        <span class="text-danger" asp-validation-for="Estado.TemperaturaZona"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Estado.EstadoDron"></label>
+        <input asp-for="Estado.EstadoDron" class="form-control">
+        <span class="text-danger" asp-validation-for="Estado.EstadoDron"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Estado.EstadoEmpaque"></label>
+        <input asp-for="Estado.EstadoEmpaque" class="form-control">
+        <span class="text-danger" asp-validation-for="Estado.EstadoEmpaque"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Estado.TiempoLlegada"></label>
+        <input asp-for="Estado.TiempoLlegada" class="form-control">
+        <span class="text-danger" asp-validation-for="Estado.TiempoLlegada"></span>
+    </div>
+    <button type = "submit" class="btn btn-primary">Guardar</button>
+</form>
+
+<div class="form-group">
+
+</div>
+
+<a asp-page="./List" class="btn btn-danger">Lista de pedidos</a>

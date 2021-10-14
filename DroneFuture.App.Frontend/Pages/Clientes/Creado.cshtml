@@ -1,0 +1,34 @@
+﻿@page
+@model DroneFuture.App.Frontend.Pages.CreadoModel
+@{
+}
+
+<!DOCTYPE html>   <!--  -->
+<html lang="es">  <!-- tipo de lenguaje -->
+    
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Shipping Drone</title>
+    <link rel="stylesheet" href="~/css/estilos5.css" />
+    </head> 
+
+<body>
+
+<div class="form-group">
+
+</div>
+
+<div class="alert alert-success" role="alert">
+  El pedido ha sido creado
+</div>
+
+<p>El ID de tu pedido es: @Model.Pedido.Id</p>
+<div class="form-group">
+
+</div>
+
+<a asp-page="./Crear" class="btn btn-danger">Regresar</a>
+
+</body>
+</html>

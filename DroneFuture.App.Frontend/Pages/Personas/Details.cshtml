@@ -1,0 +1,23 @@
+﻿@page
+@model DroneFuture.App.Frontend.Pages.DetailsModel
+@{
+}
+
+<h1>Detalle del pedido</h1>
+<p>Id: @Model.Pedido.Id</p>
+<p>Estado: @Model.Pedido.EstadoFinalizacion</p>
+<p>Satisfaccion: @Model.Pedido.Satisfaccion</p>
+<p>Nombre: @Model.Cliente.Nombre</p>
+<p>Apellidos: @Model.Cliente.Apellidos</p>
+<p>Celular: @Model.Cliente.NumeroCelular</p>
+<p>Direccion cliente: @Model.Cliente.DireccionEntrega</p>
+<p>Encargado asignado: @Model.Encargado.Nombre @Model.Encargado.Apellidos</p>
+
+<form method="POST">
+    <div class="form-group">
+        <label asp-for="Encargado.Id"></label>
+        <input asp-for="Encargado.Id" class="form-control">
+        <span class="text-danger" asp-validation-for="Encargado.Id"></span>
+    </div>
+    <button type = "submit" class="btn btn-success">Asignar/Reasignar Encargado</button>
+</form>

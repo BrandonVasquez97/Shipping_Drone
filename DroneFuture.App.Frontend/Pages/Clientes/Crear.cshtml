@@ -1,0 +1,60 @@
+﻿@page
+@model DroneFuture.App.Frontend.Pages.CrearModel
+@{
+}
+
+<!DOCTYPE html>   <!--  -->
+<html lang="es">  <!-- tipo de lenguaje -->
+    
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Shipping Drone</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/estilos1.css" />
+    <script src="https://kit.fontawesome.com/0db1539af8.js" crossorigin="anonymous"></script>
+    </head>
+
+<body>
+
+<div class="form-group">
+
+</div>
+
+<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Solicita tu pedido</h4>
+  <p>Por favor rellena los siguientes campos para que tu pedido llegue sin problemas.</p>
+  <hr>
+  <p class="mb-0">No dejes ningún espacio en blanco.</p>
+</div>
+
+<form method="POST">
+    <input type="hidden" asp-for="Cliente.Id">
+    <div class="form-group">
+        <label asp-for="Cliente.Nombre"></label>
+        <input asp-for="Cliente.Nombre" class="form-control">
+        <span class="text-danger" asp-validation-for="Cliente.Nombre"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cliente.Apellidos"></label>
+        <input asp-for="Cliente.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="Cliente.Apellidos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cliente.NumeroCelular"></label>
+        <input asp-for="Cliente.NumeroCelular" class="form-control">
+        <span class="text-danger" asp-validation-for="Cliente.NumeroCelular"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cliente.DireccionEntrega"></label>
+        <input asp-for="Cliente.DireccionEntrega" class="form-control">
+        <span class="text-danger" asp-validation-for="Cliente.DireccionEntrega"></span>
+    </div>
+    <button type = "submit" class="btn btn-primary">Guardar</button>
+</form>
+
+<div class="form-group">
+
+</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+﻿@page
+@model DroneFuture.App.Frontend.Pages.ConsultaModel
+@{
+}
+
+<!DOCTYPE html>   <!--  -->
+<html lang="es">  <!-- tipo de lenguaje -->
+    
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Shipping Drone</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/estilos3.css" />
+    <script src="https://kit.fontawesome.com/0db1539af8.js" crossorigin="anonymous"></script> 
+    </head> 
+
+<body>
+
+<div class="form-group">
+
+</div>
+
+<div class="alert alert-primary" role="alert">
+   <h4 class="alert-heading">Consulta tu pedido</h4>
+    <p>Llena los campos para saber el estado actual de tu pedido</p>
+  </div>
+
+<form action="./Resultado" method="GET">
+<div class="form-group">
+    <label class="form.control">ID de tu pedido</label>
+    <input type="number" name="idPedido" class="form-control" />
+    
+</div>
+    <input type="submit" class="btn btn-primary" value="Enviar" />
+</form>
+
+</body>
+</html>
+
+
+
+
